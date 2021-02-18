@@ -2,7 +2,7 @@
 let numberOfFilms = prompt('How many movies have you seen?','');
 
 let personalMovieDB = {
-    count: 0,
+    count: numberOfFilms,
     movies: {},
     actors: {},
     genres: [],
