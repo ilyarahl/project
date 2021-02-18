@@ -17,7 +17,7 @@ let secondFilmRate = prompt('How do you rate it?', '');
 personalMovieDB.movies[firstFilm] = firstFilmRate;
 personalMovieDB.movies[secondFilm] = secondFilmRate;
 
-console.log(personalMovieDB.movies);
+console.log(personalMovieDB);
 
 
 
